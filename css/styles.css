@@ -40,7 +40,7 @@
 
 }
 
-.link:active, .link:focus, .mail:active, .tell:active{
+.link:hover, .link:focus, .mail:active, .tell:active{
     color: var(--pressed-state-color)
 
 }
@@ -93,14 +93,14 @@
     background-color:var(--pressed-state-color)
 }
 
-.features-title{
+.features-subtitle{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
-.features-text, .position, .field{
+.features-text, .position{
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.5;
@@ -125,7 +125,7 @@
     background-color: var(--white-background-color);
 }
 
-.name, .service{
+.name{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -163,12 +163,32 @@
 
 
 .btn{
+    background-color: var(--light-color);
     color: var(--primary-brand-color);
-    background-color: var(--accent-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor:pointer;
 }
 
-.btn:hover, .btn-all{
-    background-color: var(--pressed-state-color);
-    color: var(--white-background-color);
+.btn:hover, .btn:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.service{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+
+.field{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
 }
