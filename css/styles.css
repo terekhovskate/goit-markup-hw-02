@@ -16,7 +16,6 @@
 
 }
 .logo{
-    color: var(--primary-brand-color);
     font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -24,6 +23,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration:none;
+    color: var(--primary-brand-color);
 }
 .logo-studio {
     color: var(--dark-color);
@@ -93,6 +93,10 @@
     background-color:var(--pressed-state-color)
 }
 
+.features-title{
+    color:var(--dark-color);
+}
+
 .features-subtitle{
     font-weight: 500;
     font-size: 20px;
@@ -109,6 +113,7 @@
 }
 
 .section-title{
+    color:var(--dark-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -119,13 +124,16 @@
 
 .members {
     background-color: var(--light-color);
+    color:var(--dark-color);
 }
 
 .team{
-    background-color: var(--white-background-color);
+    background-color: #FFFFFF;
 }
 
+
 .name{
+    color:var(--dark-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
