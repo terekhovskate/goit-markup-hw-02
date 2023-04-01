@@ -15,16 +15,7 @@
     font-family: Roboto, sans-serif;
 
 }
-.logo{
-    font-family: Raleway, sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration:none;
-    color: var(--primary-brand-color);
-}
+
 .logo-studio {
     color: var(--dark-color);
     
@@ -38,6 +29,17 @@
     letter-spacing: 0.02em;
     text-decoration:none;
 
+}
+
+.logo{
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration:none;
+    color: var(--primary-brand-color);
 }
 
 .link:hover, .link:focus, .mail:active, .tell:active{
@@ -127,7 +129,7 @@
 }
 
 .team{
-    background-color: #FFFFFF;
+    background-color: #FFFFFF
 }
 
 
