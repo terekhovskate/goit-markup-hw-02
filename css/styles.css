@@ -50,7 +50,7 @@
     font-style: normal;
 
 }
-.mail, .tell {
+.address-item {
     color: var(--text-color);
     font-weight: 400;
     font-size: 16px;
@@ -128,7 +128,7 @@
     color:var(--dark-color);
 }
 
-.team{
+.team-member{
     background-color: #FFFFFF
 }
 
